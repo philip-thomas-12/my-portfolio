@@ -48,3 +48,7 @@ Deployed live using [Vercel](https://vercel.com).
 
 ## 📁 Folder Structure
 
+my-portfolio/
+├── index.html
+└── README.md
+└──LICENCE
