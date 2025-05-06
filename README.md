@@ -52,3 +52,17 @@ my-portfolio/
 ├── index.html
 └── README.md
 └──LICENCE
+
+---
+
+## ✨ Customization
+
+- Replace `[Your Name]` in the HTML file with your actual name
+- Add your real projects and links in the “Projects” section
+- Customize colors and layout in the `<style>` section
+
+---
+
+## 📃 License
+
+This project is open-source and free to use for learning and portfolio purposes.
