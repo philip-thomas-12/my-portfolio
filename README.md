@@ -50,6 +50,7 @@ Deployed live using [Vercel](https://vercel.com).
 
 my-portfolio/
 ├── index.html
+├── style.css
 └── README.md
 └──LICENCE
 
