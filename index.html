@@ -2,54 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Philip Thomas | Web Developer</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <header>
-    <h1>Hi, I'm PHILIP THOMAS</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>Philip Thomas</h1>
+      <p>Web Developer | Tech Enthusiast | Learner</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>I am a passionate web developer learning HTML, CSS, and JavaScript. I enjoy building creative websites and exploring frontend technologies.</p>
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a B.Tech IT student passionate about frontend development. I build creative, responsive, and user-friendly websites using HTML, CSS, JavaScript, and PHP. Currently exploring the MERN stack and backend development.</p>
+    </div>
   </section>
 
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-
-    <div class="project-card">
-      <h3>Portfolio Website</h3>
-      <p>This personal website you're viewing now, built with HTML and CSS.</p>
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Budget Tracker</h3>
+          <p>A PHP-MySQL based personal expense tracker with a user login system and analytics dashboard.</p>
+          <a href="https://github.com/philip-thomas-12/budget-tracker" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>This portfolio site, built with HTML, CSS, and JavaScript.</p>
+          <a href="#">You're here!</a>
+        </div>
+        <div class="project-card">
+          <h3>Simple Calculator</h3>
+          <p>A calculator app using vanilla JavaScript with clean UI and keyboard support.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
     </div>
-
-    <div class="project-card">
-      <h3>Simple Calculator</h3>
-      <p>A basic calculator built with HTML, CSS, and JavaScript.</p>
-    </div>
-
   </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send</button>
-    </form>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 PHILIP THOMAS. All rights reserved.</p>
+    <p>&copy; 2025 Philip Thomas. Built with ❤️</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
