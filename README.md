@@ -23,17 +23,7 @@ It includes sections like About Me, Projects, and Contact.
 
 ---
 
-## 🚀 How to Deploy on Vercel
 
-1. Fork or clone this repository
-2. Push to your own GitHub repository
-3. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-4. Click **"Add New Project"** and select your repo
-5. Choose **Framework = Other**
-6. Click **"Deploy"**
-7. Your site is now live!
-
----
 
 ## 📁 Folder Structure
 
