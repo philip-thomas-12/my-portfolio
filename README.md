@@ -10,10 +10,7 @@ Deployed live using [Vercel](https://vercel.com).
 
 ---
 
-## 🌐 Live Demo
 
-🔗 [View Portfolio](https://your-vercel-url.vercel.app)  
-> Replace the above link with your actual Vercel deployment URL.
 
 ---
 
