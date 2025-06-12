@@ -56,7 +56,6 @@ form button {
   cursor: pointer;
 }
 
-
 @media (max-width: 600px) {
   nav a {
     display: block;
