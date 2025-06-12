@@ -19,7 +19,7 @@ It includes sections like About Me, Projects, and Contact.
 
 - HTML5
 - CSS3
-- [Vercel](https://vercel.com) – for deployment
+
 
 ---
 
