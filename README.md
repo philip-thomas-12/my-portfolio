@@ -6,15 +6,7 @@
 
 A simple, responsive personal portfolio website built using HTML and CSS.  
 It includes sections like About Me, Projects, and Contact.  
-Deployed live using [Vercel](https://vercel.com).
-
----
-
-
-
----
-
-## 📌 Features
+📌 Features
 
 - Responsive design for all screen sizes
 - Clean layout with HTML5 semantic tags
