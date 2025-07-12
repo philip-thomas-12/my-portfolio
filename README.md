@@ -21,7 +21,6 @@ It includes sections like About Me, Projects, and Contact.
 - HTML5
 - CSS3
 
-
 ---
 
 
