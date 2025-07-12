@@ -15,7 +15,6 @@ It includes sections like About Me, Projects, and Contact.
 - Simple contact form (static)
 
 ---
-
 ## 🛠️ Built With
 
 - HTML5
