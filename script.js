@@ -4,7 +4,8 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     .then(() => {
       document.getElementById('form-status').textContent = 'Message sent!';
       this.reset();
-    }, (err) => {
+    }, 
+          (err) => {
       document.getElementById('form-status').textContent = 'Failed to send. Try again.';
     });
 });
