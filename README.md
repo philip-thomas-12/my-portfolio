@@ -16,7 +16,6 @@ It includes sections like About Me, Projects, and Contact.
 
 ---
 
-
 ## 🛠️ Built With
 
 - HTML5
